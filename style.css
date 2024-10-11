@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #FFFAF0; /* เปลี่ยนเป็นสีครีมอ่อน */
+}
+
+nav {
+    background-color: #FFB6C1; /* สีชมพูพาสเทล */
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 3px solid #FFA07A; /* เส้นขอบส้มพาสเทล */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff; /* เปลี่ยนเป็นสีขาวเพื่อให้ตัดกับพื้นหลัง */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #FFE4E1; /* สีชมพูอ่อนเมื่อ hover */
+}
+
+.main-content {
+    padding: 2rem;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #FFDAB9; /* สีพีชพาสเทล */
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FFB6C1; /* สีชมพูพาสเทลเมื่อ hover */
+}
+
+footer {
+    background-color: #FFB6C1; /* สีชมพูพาสเทล */
+    padding: 1rem;
+    text-align: center;
+    border-top: 3px solid #FFA07A; /* เส้นขอบส้มพาสเทล */
+}
+
+footer a {
+    margin: 0 10px;
+    color: #fff; /* สีขาว */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #FFE4E1; /* สีชมพูอ่อนเมื่อ hover */
+}
+
+img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงาให้น่ารักขึ้น */
+}
